@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @var ${1:type}
+ */
+protected \$${2:param};
+
+/**
+ * @var ${3:type}
+ */
+protected \$${4:param};
+
+/**
+ * @param ${1:type} \$${2:param}
+ * @param ${3:type} \$${4:param}
+ * @return void
+ */
+public function __construct(${1:type} \$${2:param}, ${3:type} \$${4:param})
+{
+    \$this->${2:param} = \$${2:param};
+    \$this->${4:param} = \$${4:param};
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>construct2</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

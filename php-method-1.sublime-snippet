@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:description of method}
+ *
+ * @param ${2:type} ${3:param}
+ * @return ${4:boolean}
+ */
+public function ${5:methodName}(${2:type} ${3:param}): ${4:boolean}
+{
+    return ${6:true};
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>method1</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

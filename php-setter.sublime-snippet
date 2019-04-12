@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:description of method}
+ *
+ * @param ${2:string} \$${3:param}
+ * @return \$this
+ */
+public function set${3:Attribute}(${2:string} \$${3:param}): self
+{
+    \$this->${3:param} = \$${3:param};
+    return \$this;
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>setter</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
