@@ -3,9 +3,9 @@
 /**
  * @test
  */
-public function ${1:methodName}()
+public function ${1:it_is_a_testing_method}()
 {
-
+    ${2:\$this->assertTrue(true);}
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

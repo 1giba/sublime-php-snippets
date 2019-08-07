@@ -1,17 +1,15 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${1:description of method}
- *
- * @return ${2:bool}
+ * {@inheritDoc}
  */
-public function ${3:methodName}(): ${2:bool}
+public function handle(CommandInterface \$command)
 {
-    ${4:return true;}
+    ${1:// code}
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>method</tabTrigger>
+    <tabTrigger>handle</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
 </snippet>

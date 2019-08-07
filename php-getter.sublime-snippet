@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${1:description of method}
+ * Get ${1:attribute}
  *
  * @return ${2:string}
  */
-public function get${3:Attribute}(): ${2:string}
+public function ${3:get}(): ${2:string}
 {
-    return \$this->${4:attribute};
+    return \$this->${1:attribute};
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

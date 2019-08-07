@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${1:description of method}
+ * Set ${1:param}
  *
- * @param ${2:string} \$${3:param}
+ * @param ${2:string} \$${1:param}
  * @return \$this
  */
-public function set${3:Attribute}(${2:string} \$${3:param}): self
+public function ${3:set}(${2:string} \$${1:param}): self
 {
-    \$this->${3:param} = \$${3:param};
+    \$this->${1:param} = \$${1:param};
     return \$this;
 }
 ]]></content>

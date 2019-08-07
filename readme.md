@@ -1,4 +1,4 @@
-## PHP Snippets for Sublime Text
+## PHP Snippets for Sublime Text 3
 
 ### Installation
 
@@ -6,7 +6,7 @@ Clone or download zip to install snippets.
 
 Copy or extract to sublime text config path.
 ```sh
-/home/${whoami}/.config/sublime-text/Packages/User/
+/home/${whoami}/.config/sublime-text-3/Packages/User/
 ```
 
 ### Usage

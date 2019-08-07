@@ -3,13 +3,13 @@
 /**
  * ${1:description of method}
  *
- * @param ${2:type} ${3:param}
- * @param ${4:type} ${5:param}
- * @return ${6:boolean}
+ * @param ${2:type} \$${3:param}
+ * @param ${4:type} \$${5:param}
+ * @return ${6:bool}
  */
-public function ${5:methodName}(${2:type} ${3:param}, ${4:type} ${5:param}): ${6:boolean}
+public function ${7:methodName}(${2:type} \$${3:param}, ${4:type} \$${5:param}): ${6:bool}
 {
-    return ${7:true};
+    ${8:return true;}
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
