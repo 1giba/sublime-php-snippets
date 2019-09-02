@@ -26,5 +26,8 @@ Copy or extract to sublime text config path.
 * Type **test** to create a new Test method based in PHPUnit
 * Type **echop** to debug the code using `print_r()`
 * Type **echov** to debug the code using `var_dump()`
+* Type **comment** to put a comment in your code
+* Type **inherit** to put a comment in your code
+* Type **strict** to put strict_types in your code
 
 I hope you enjoy it ;).
