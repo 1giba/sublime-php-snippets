@@ -24,10 +24,11 @@ Copy or extract to sublime text config path.
 * Type **method2** to create a new Method using 2 parameters for class
 * Type **method3** to create a new Method using 3 parameters for class
 * Type **test** to create a new Test method based in PHPUnit
+* Type **testp** to create a new Test method with Data Provider in PHPUnit
 * Type **echop** to debug the code using `print_r()`
 * Type **echov** to debug the code using `var_dump()`
 * Type **comment** to put a comment in your code
 * Type **inherit** to put a comment in your code
-* Type **strict** to put strict_types in your code
+* Type **strict** to declare `strict_types` in your code
 
 I hope you enjoy it ;).

@@ -2,14 +2,27 @@
     <content><![CDATA[
 /**
  * @test
+ * @dataProvider ${2:additionProvider}
  */
 public function ${1:it_is_a_testing_method}(): void
 {
-    ${2:\$this->assertTrue(true);}
+    ${3:\$this->assertTrue(true);}
+}
+
+/**
+ * @return array[][]
+ */
+public function ${2:additionProvider}(): array
+{
+    return [
+        [
+            ${4://code}
+        ],
+    ];
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>test</tabTrigger>
+    <tabTrigger>testp</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
 </snippet>
