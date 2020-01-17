@@ -6,7 +6,7 @@ Clone or download zip to install snippets.
 
 Copy or extract to sublime text config path.
 ```sh
-/home/${whoami}/.config/sublime-text-3/Packages/User/
+/home/$(whoami)/.config/sublime-text-3/Packages/User/
 ```
 
 ### Usage
