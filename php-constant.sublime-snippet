@@ -3,7 +3,7 @@
 /**
  * @const ${1:type}
  */
-const ${2:CONSTANT};
+protected const ${2:CONSTANT};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>constant</tabTrigger>
